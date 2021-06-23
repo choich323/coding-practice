@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+void Quiz_1();
+void Quiz_2();
+void Quiz_3();
+
+int main() {
+
+    //Quiz_1();
+    //Quiz_2();
+    Quiz_3();
+
+    return 0;
+}
+
+// #1
+void Quiz_1() {
+    int num;
+    cin >> num;
+
+    for (int i = 0; i < 9; i++)
+        cout << num << " * " << i + 1 << " = " << num * (i + 1) << endl;
+}
+
+// #2
+void Quiz_2() {
+    int test_num, A, B;
+    cin >> test_num;
+
+    for (int i = 0; i < test_num; i++) {
+        cin >> A >> B;
+        cout << A + B << endl;
+    }
+}
+
+// #3
+void Quiz_3() {
+    int n, result;
+    result = 0;
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+        result = result + i;
+    cout << result;
+}
