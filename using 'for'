@@ -10,6 +10,8 @@ void Quiz_6();
 void Quiz_7();
 void Quiz_8();
 void Quiz_9();
+void Quiz_10();
+void Quiz_11();
 
 int main() {
 
@@ -21,7 +23,9 @@ int main() {
     //Quiz_6();
     //Quiz_7();
     //Quiz_8();
-    Quiz_9();
+    //Quiz_9();
+    //Quiz_10();
+    Quiz_11();
 
     return 0;
 }
@@ -114,8 +118,41 @@ void Quiz_9() {
     int N;
     cin >> N;
 
-    for (int i = 0; i < N; i++)
-        cout << "*" << '\n';
+    for (int i = 0; i < N; i++){
+        for (int j = 0; j < i + 1; j++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
 }
 
+// #10
+void Quiz_10() {
+    int N;
+    cin >> N;
 
+    for (int i = 0; i < N; i++) {
+        for (int k = N; k > i + 1; k--)
+            cout << " ";
+        for (int j = 0; j < i + 1; j++) 
+            cout << "*";
+        cout << endl;
+    }
+}
+
+// #11
+void Quiz_11() {
+    int N, X;
+    cin >> N >> X;
+
+    int* lst = new int[N];
+
+    for (int i = 0; i < N; i++)
+        cin >> lst[i];
+
+    for (int j = 0; j < N; j++)
+        if (lst[j] < X)
+            cout << lst[j] << " ";
+
+    delete[] lst;
+}
