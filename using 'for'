@@ -4,12 +4,24 @@ using namespace std;
 void Quiz_1();
 void Quiz_2();
 void Quiz_3();
+void Quiz_4();
+void Quiz_5();
+void Quiz_6();
+void Quiz_7();
+void Quiz_8();
+void Quiz_9();
 
 int main() {
 
     //Quiz_1();
     //Quiz_2();
-    Quiz_3();
+    //Quiz_3();
+    //Quiz_4();
+    //Quiz_5();
+    //Quiz_6();
+    //Quiz_7();
+    //Quiz_8();
+    Quiz_9();
 
     return 0;
 }
@@ -43,3 +55,67 @@ void Quiz_3() {
         result = result + i;
     cout << result;
 }
+
+// #4
+void Quiz_4() {
+    int test_num, A, B;
+    cin.tie(NULL);
+    
+    cin >> test_num;
+
+    for (int i = 0; i < test_num; i++) {
+        cin >> A >> B;
+        cout << A + B << '\n';
+    }
+}
+
+// #5
+void Quiz_5() {
+    int n;
+    cin >> n;
+
+    for (int i = 0; i < n; i++)
+        cout << i + 1 << '\n';
+}
+
+// #6
+void Quiz_6() {
+    int n;
+    cin >> n;
+
+    for (int i = n; i > 0; i--)
+        cout << i << '\n';
+}
+
+// #7
+void Quiz_7() {
+    int T, A, B;
+    cin >> T;
+
+    for (int i = 0; i < T; i++) {
+        cin >> A >> B;
+        cout << "Case #" << i + 1 << ": " << A + B << '\n';
+    }
+}
+
+// #8
+void Quiz_8(){
+    int T, A, B;
+    cin >> T;
+
+    for (int i = 0; i < T; i++) {
+        cin >> A >> B;
+        cout << "Case #" << i + 1 << ": " << A << " + " << B << " = " << A + B << '\n';
+    }
+}
+
+// #9
+void Quiz_9() {
+    int N;
+    cin >> N;
+
+    for (int i = 0; i < N; i++)
+        cout << "*" << '\n';
+}
+
+
