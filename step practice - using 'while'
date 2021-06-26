@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+
+void Quiz_1();
+void Quiz_2();
+void Quiz_3();
+
+int main() {
+
+    //Quiz_1();
+    //Quiz_2();
+    Quiz_3();
+
+    return 0;
+}
+
+// #1
+void Quiz_1() {
+    int A, B;
+
+    while (true) {
+        cin >> A >> B;
+        if (A == 0 && B == 0)
+            break;
+        cout << A + B << endl;
+    }
+}
+
+// #2
+void Quiz_2() {
+    int A, B;
+
+    while (true) {
+        cin >> A >> B;
+        if (cin.eof() == true)
+            break;
+        cout << A + B << endl;
+    }
+}
+
+// #3
+void Quiz_3() {
+    int N;
+    int cycle = 0;
+    cin >> N;
+    int temp = N;
+    int temp2 = 0;
+    int digit_ten = 0;
+    int digit_one = 0;
+
+    do {
+        if (temp < 10)
+            digit_ten = 0;
+        else
+            digit_ten = temp / 10;
+
+        digit_one = temp % 10;
+        temp2 = digit_ten + digit_one;
+
+        temp = digit_one * 10 + (temp2 % 10);
+             
+        cycle++;
+
+    } while (N != temp);
+
+    cout << cycle;
+}
