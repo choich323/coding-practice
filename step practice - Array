@@ -1,0 +1,58 @@
+#include <iostream>
+using namespace std;
+
+void Quiz_1();
+void Quiz_2();
+
+
+int main() {
+
+    //Quiz_1();
+    Quiz_2();
+
+
+    return 0;
+}
+
+// #1
+void Quiz_1() {
+    int N, num, max, min;
+    cin >> N;
+
+    int* lst = new int[N];
+    max = -1000000;
+    min = 1000000;
+
+    for (int i = 0; i < N; i++) {
+        cin >> num;
+        lst[i] = num;
+    }
+
+    for (int j = 0; j < N; j++) {
+        if (lst[j] < min)
+            min = lst[j];
+        if (lst[j] > max)
+            max = lst[j];
+    }
+
+    cout << min << " " << max;
+
+    delete[] lst;
+}
+
+// #2
+void Quiz_2() {
+    int max = 0;
+    int lst[9], max_index = 0;
+    for (int i = 0; i < 9; i++) {
+        cin >> lst[i];
+    }
+
+    for (int j = 0; j < 9; j++) {
+        if (max < lst[j]) {
+            max = lst[j];
+            max_index = j+1;
+        }
+    }
+    cout << max << endl << max_index;
+}
