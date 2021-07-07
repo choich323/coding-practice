@@ -17,8 +17,8 @@ int main() {
 
     //Quiz_1();
     //Quiz_2();
-    Quiz_3();
-    //Quiz_4();
+    //Quiz_3();
+    Quiz_4();
     //Quiz_5();
     //Quiz_6();
     //Quiz_7();
@@ -116,4 +116,34 @@ void Quiz_3() {
 
     for (int i = 0; i < 10; i++)
         cout << lst[i] << endl;
+}
+
+// #4
+void Quiz_4() {
+    int lst[10];
+    int num;
+    int tmp = 0;
+    int difference = 0;
+    bool same = false;
+
+    for (int k = 0; k < 10; k++)
+        lst[k] = 42;
+
+    for (int i = 0; i < 10; i++) {
+        cin >> num;
+        same = false;
+        tmp = num % 42;
+
+        for (int j = 0; j < 10; j++) {
+            if (lst[j] == tmp) {
+                same = true;
+                break;
+            }
+        }
+        if (!same) 
+            difference++;
+        lst[i] = tmp;
+    }
+
+    cout << difference;
 }
