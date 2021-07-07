@@ -147,3 +147,28 @@ void Quiz_4() {
 
     cout << difference;
 }
+// #5
+void Quiz_5() {
+    int N;
+    cin >> N;
+    float* arr = new float[N];
+    float max = 0.0;
+    float sum = 0.0;
+
+    for (int p = 0; p < N; p++)
+        arr[p] = 0.0;
+
+    for (int i = 0; i < N; i++) {
+        cin >> arr[i];
+        if (arr[i] > max)
+            max = arr[i];
+    }
+    for (int j = 0; j < N; j++) {
+        arr[j] = arr[j] / max * 100;
+        sum = sum + arr[j];
+    }
+
+    cout << sum / N;
+
+    delete[] arr;
+}
