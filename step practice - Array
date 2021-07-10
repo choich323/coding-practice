@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 void Quiz_1();
@@ -8,24 +9,17 @@ void Quiz_4();
 void Quiz_5();
 void Quiz_6();
 void Quiz_7();
-void Quiz_8();
-void Quiz_9();
-void Quiz_10();
-void Quiz_11();
+
 
 int main() {
 
     //Quiz_1();
     //Quiz_2();
     //Quiz_3();
-    Quiz_4();
+    //Quiz_4();
     //Quiz_5();
     //Quiz_6();
-    //Quiz_7();
-    //Quiz_8();
-    //Quiz_9();
-    //Quiz_10();
-    //Quiz_11();
+    Quiz_7();
 
     return 0;
 }
@@ -147,6 +141,7 @@ void Quiz_4() {
 
     cout << difference;
 }
+
 // #5
 void Quiz_5() {
     int N;
@@ -171,4 +166,74 @@ void Quiz_5() {
     cout << sum / N;
 
     delete[] arr;
+}
+
+// #6
+void Quiz_6() {
+    int N, count, sum;
+
+    cin >> N;
+
+    for (int a = 0; a < N; a++) {
+        count = 0;
+        sum = 0;
+
+        string Ox;
+
+        cin >> Ox;
+
+        for (int i = 0; i < Ox.length(); i++) {
+            if (Ox[i] == 'O') {
+                count++;
+                sum = sum + count;
+            }
+            else
+                count = 0;
+        }
+        cout << sum << endl;
+    }
+}
+
+// #7
+void Quiz_7() {
+    int C, N;
+
+    int sum, std;
+    float aver, result;
+
+    cin >> C;
+    
+
+    for (int a = 0; a < C; a++) {
+        cin >> N;
+
+        int* arr = new int[N];
+
+        sum = 0;
+        for (int i = 0; i < N; i++) {
+            cin >> arr[i];
+            sum = sum + arr[i];
+        }
+
+        aver = (float) sum / N;
+
+        std = 0;
+        for (int j = 0; j < N; j++) {
+            if (aver < arr[j])
+                std++;
+        }
+
+        if (std == 0)
+            result = 0.000;
+        else if (std == N)
+            result = 1.000;
+        else
+            result = (float)std / N * 100;
+
+        cout.precision(3);
+        cout << fixed;
+        cout << result << "%" << endl;
+
+        delete[] arr;       
+    }
 }
