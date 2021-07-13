@@ -2,11 +2,13 @@
 using namespace std;
 
 void Quiz_1();
+void Quiz_2();
 
 int main() {
 
-    Quiz_1();
-
+    //Quiz_1();
+    Quiz_2();
+    
     return 0;
 }
 
@@ -55,4 +57,27 @@ void Quiz_1() {
     }
 
     delete[] arr;
+}
+
+// #2
+void Quiz_2() {
+    int N;
+    int limit = 1;
+    int count = 0;
+    cin >> N;
+
+    while (N >= limit) {
+        if (limit < 100) {
+            count++;
+        }
+        else if (limit >= 100 && limit < 1000) {
+            int hun = limit / 100;
+            int ten = (limit % 100) / 10;
+            int one = (limit % 100) % 10;
+            if (hun - ten == ten - one)
+                count++;
+        }
+        limit++;
+    }
+    cout << count;
 }
