@@ -2,10 +2,12 @@
 using namespace std;
 
 void Quiz_1();
+void Quiz_2();
 
 int main() {
 
     Quiz_1();
+    //Quiz_2();
     
     return 0;
 }
@@ -15,4 +17,19 @@ void Quiz_1() {
     char ch;
     cin >> ch;
     cout << (int)ch;
+}
+
+// #2
+void Quiz_2() {
+    int N;
+    cin >> N;
+    int sum = 0;
+
+    char num;
+
+    for(int i = 0; i < N; i++){
+        cin >> num;
+        sum = sum + (int)num - 48;
+    }
+    cout << sum;
 }
