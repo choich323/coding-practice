@@ -87,3 +87,70 @@ void Quiz_4() {
         cout << endl;
     }
 }
+// #5
+void Quiz_5() {
+
+    char* S = new char[1000000];
+
+    for (int i = 0; i < 1000000; i++) {
+        S[i] = 0;
+    }
+
+    char Alpha[26] = { 0 };
+    char alpha[26] = { 0 };
+
+    int idx = 0;
+    for (int i = 97; i <= 122; i++) {
+        alpha[idx] = i;
+        idx++;
+    }
+    idx = 0;
+    for (int i = 65; i <= 90; i++) {
+        Alpha[idx] = i;
+        idx++;
+    }
+   
+    cin >> S;
+
+    int count[26] = { 0 };
+ 
+    for (int j = 0; S[j] != 0; j++) {
+        for (int k = 0; k < 26; k++) {  // 대문자 검색
+            if (S[j] == Alpha[k]) {
+                count[k]++;
+                break;
+            }
+        }
+        for (int k = 0; k < 26; k++) {  // 소문자 검색
+            if (S[j] == alpha[k]) {
+                count[k]++;
+                break;
+            }
+        }
+    }
+
+    int max = 0;
+    int max_idx = 0;
+
+    for (int p = 0; p < 26; p++) {
+        if (max < count[p]) {
+            max = count[p];
+            max_idx = p;
+        }
+    }
+
+    bool x2 = false;
+    for (int p = 0; p < 26; p++) {
+        if (p != max_idx) {
+            if (count[p] == max)
+                x2 = true;
+        }
+    }
+
+    if (x2)
+        cout << "?";
+    else
+        cout << Alpha[max_idx];
+
+    delete[] S;
+}
