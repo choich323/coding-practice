@@ -1,16 +1,33 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 void Quiz_1();
 void Quiz_2();
 void Quiz_3();
+void Quiz_4();
+void Quiz_5();
+void Quiz_6();
+void Quiz_7();
+void Quiz_8();
+void Quiz_9();
+void Quiz_10();
+void Quiz_11();
 
 int main() {
 
     //Quiz_1();
     //Quiz_2();
-    Quiz_3();
-    
+    //Quiz_3();
+    Quiz_4();
+    //Quiz_5();
+    //Quiz_6();
+    //Quiz_7();
+    //Quiz_8();
+    //Quiz_9();
+    //Quiz_10();
+    //Quiz_11();
+
     return 0;
 }
 
@@ -52,5 +69,21 @@ void Quiz_3() {
             cout << j << " ";
         else
             cout << "-1 ";
+    }
+}
+// #4
+void Quiz_4() {
+    int T, R;
+    cin >> T;
+    string S;
+
+    for (int i = 0; i < T; i++) {
+        cin >> R >> S;
+        for (int j = 0; j < S.length(); j++) {
+            for (int k = 0; k < R; k++) {
+                cout << S[j];
+            }
+        }
+        cout << endl;
     }
 }
