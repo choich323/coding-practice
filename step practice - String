@@ -198,3 +198,53 @@ void Quiz_7() {
 
    cout << max[2] << max[1] << max[0];
 }
+// #8
+void Quiz_8(){
+    char arr[16];
+
+    for (int i = 0; i < 15; i++) {
+        arr[i] = 0;
+    }
+
+    cin >> arr;
+
+    int time = 0;
+
+    for (int i = 0; i < 15; i++) {
+        if (arr[i] >= 65 && arr[i] <= 76) {
+            if (arr[i] >= 65 && arr[i] <= 70) {
+                if (arr[i] >= 65 && arr[i] <= 67) {
+                    time = time + 3;
+                }
+                else
+                    time = time + 4;
+            }
+            else {
+                if (arr[i] >= 71 && arr[i] <= 73) {
+                    time = time + 5;
+                }
+                else
+                    time = time + 6;
+            }
+        }
+        else if (arr[i] >= 77 && arr[i] <= 90) {
+            if (arr[i] >= 77 && arr[i] <= 83) {
+                if (arr[i] >= 77 && arr[i] <= 79) {
+                    time = time + 7;
+                }
+                else
+                    time = time + 8;
+            }
+            else {
+                if (arr[i] >= 84 && arr[i] <= 86) {
+                    time = time + 9;
+                }
+                else
+                    time = time + 10;
+            }
+        }
+        else
+            break;
+    }
+    cout << time;
+}
