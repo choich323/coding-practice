@@ -12,7 +12,6 @@ void Quiz_7();
 void Quiz_8();
 void Quiz_9();
 void Quiz_10();
-void Quiz_11();
 
 int main() {
 
@@ -26,7 +25,6 @@ int main() {
     //Quiz_8();
     Quiz_9();
     //Quiz_10();
-    //Quiz_11();
 
     return 0;
 }
@@ -290,4 +288,36 @@ void Quiz_9() {
         word++;
     }
     cout << word;
+}
+// #10
+void Quiz_10() {
+    int N;
+    cin >> N;
+
+    string str;
+    int result = 0;
+    bool group = true;
+
+    for (int i = 0; i < N; i++) {
+        group = true;
+        cin >> str;
+        int len = str.length();
+
+        if (len > 2) {                                  // 길이가 1이나 2일 때는 언제나 그룹 단어이므로
+            for (int k = 0; k < len - 1; k++) {
+                if (str[k] != str[k + 1]) {
+                    for (int j = k + 2; j < len; j++) {
+                        if (str[k] == str[j]) {
+                            group = false;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+
+        if (group)
+            result++;
+    }
+    cout << result;
 }
