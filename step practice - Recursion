@@ -3,12 +3,14 @@
 using namespace std;
 
 int factor(int n);
+int fib(int n);
 
 int main(){
     int N;
     cin >> N;
     
     cout << factor(N);
+    cout << fib(N);
     
     return 0;
 }
@@ -20,4 +22,15 @@ int factor(int n){
     else{
         return (n * factor(n - 1));
     }
+}
+
+int fib(int n){
+    
+    if(n == 0)
+        return 0;
+    else if(n == 1 || n == 2)
+        return 1;
+    else{
+        return (fib(n-1) + fib(n-2));
+    } 
 }
