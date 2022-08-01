@@ -184,9 +184,6 @@
     <ClCompile Include="7568 덩치.cpp" />
     <ClCompile Include="15649 N과 M%281%29.cpp" />
     <ClCompile Include="9184 신나는 함수 실행.cpp" />
-    <ClCompile Include="NC2번.cpp" />
-    <ClCompile Include="엔픽셀 연습장.cpp" />
-    <ClCompile Include="펄어비스1번.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -12,10 +12,9 @@ int main() {
 	cin >> n;
 	
 	vector<int> num(n);
-	vector<int> sol(n);
+	vector<int> sol(n, 1);
 	for (int i = 0; i < n; i++) {
 		cin >> num[i];
-		sol[i] = 1;
 	}
 
 	int result = 0;

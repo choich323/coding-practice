@@ -24,16 +24,10 @@
     <ClCompile Include="1018 체스판 칠하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NC2번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="15649 N과 M%281%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11279 최대 힙.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="펄어비스1번.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1085 직사각형에서 탈출.cpp">
@@ -94,9 +88,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="9461 파도반 수열.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="엔픽셀 연습장.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="15652 N과 M%284%29.cpp">
