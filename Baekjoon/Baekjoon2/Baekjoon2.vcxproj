@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Baekjoon\2108 통계학.cpp" />
     <ClCompile Include="1002 터렛.cpp" />
     <ClCompile Include="10250 ACM 호텔.cpp" />
     <ClCompile Include="10844 쉬운 계단 수.cpp" />
