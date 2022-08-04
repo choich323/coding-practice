@@ -158,6 +158,7 @@
     <ClCompile Include="4949 균형잡힌 세상.cpp" />
     <ClCompile Include="5086 배수와 약수.cpp" />
     <ClCompile Include="9020 골드바흐의 추측.cpp" />
+    <ClCompile Include="9663 N-Queen.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
