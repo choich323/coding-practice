@@ -134,7 +134,10 @@
     <ClCompile Include="10989 수 정렬하기 3.cpp" />
     <ClCompile Include="11053 가장 긴 증가하는 부분 수열.cpp" />
     <ClCompile Include="11054 가장 긴 바이토닉 부분 수열.cpp" />
+    <ClCompile Include="11650 좌표 정렬하기.cpp" />
+    <ClCompile Include="11651 좌표 정렬하기 2.cpp" />
     <ClCompile Include="1260 DFS와 BFS.cpp" />
+    <ClCompile Include="1427 소트인사이드.cpp" />
     <ClCompile Include="1463 1로 만들기.cpp" />
     <ClCompile Include="1541 잃어버린 괄호.cpp" />
     <ClCompile Include="17298 오큰수.cpp" />
