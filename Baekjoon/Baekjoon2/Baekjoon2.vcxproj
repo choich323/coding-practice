@@ -131,6 +131,7 @@
     <ClCompile Include="1002 터렛.cpp" />
     <ClCompile Include="10250 ACM 호텔.cpp" />
     <ClCompile Include="10844 쉬운 계단 수.cpp" />
+    <ClCompile Include="10866 덱.cpp" />
     <ClCompile Include="10989 수 정렬하기 3.cpp" />
     <ClCompile Include="11053 가장 긴 증가하는 부분 수열.cpp" />
     <ClCompile Include="11054 가장 긴 바이토닉 부분 수열.cpp" />
