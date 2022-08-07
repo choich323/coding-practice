@@ -123,5 +123,8 @@
     <ClCompile Include="10866 덱.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2667 단지번호붙이기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
