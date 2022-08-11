@@ -130,6 +130,7 @@
     <ClCompile Include="..\Baekjoon\2108 통계학.cpp" />
     <ClCompile Include="1002 터렛.cpp" />
     <ClCompile Include="1012 유기농 배추.cpp" />
+    <ClCompile Include="1021 회전하는 큐.cpp" />
     <ClCompile Include="10250 ACM 호텔.cpp" />
     <ClCompile Include="10844 쉬운 계단 수.cpp" />
     <ClCompile Include="10866 덱.cpp" />
