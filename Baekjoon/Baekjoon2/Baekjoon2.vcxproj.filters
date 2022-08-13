@@ -141,6 +141,9 @@
     <ClCompile Include="5430 AC.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10816 숫자 카드 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="5430 AC.h">
