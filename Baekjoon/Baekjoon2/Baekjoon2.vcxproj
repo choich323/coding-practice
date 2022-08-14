@@ -149,6 +149,7 @@
     <ClCompile Include="1874 스택 수열.cpp" />
     <ClCompile Include="1966 프린터 큐.cpp" />
     <ClCompile Include="2156 포도주 시식.cpp" />
+    <ClCompile Include="25305 커트라인.cpp" />
     <ClCompile Include="2565 전깃줄.cpp" />
     <ClCompile Include="2606 바이러스.cpp" />
     <ClCompile Include="1780 종이의 개수.cpp" />
