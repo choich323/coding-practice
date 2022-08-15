@@ -140,6 +140,7 @@
     <ClCompile Include="11054 가장 긴 바이토닉 부분 수열.cpp" />
     <ClCompile Include="11650 좌표 정렬하기.cpp" />
     <ClCompile Include="11651 좌표 정렬하기 2.cpp" />
+    <ClCompile Include="1181 단어 정렬.cpp" />
     <ClCompile Include="1260 DFS와 BFS.cpp" />
     <ClCompile Include="13305 주유소.cpp" />
     <ClCompile Include="1427 소트인사이드.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="1874 스택 수열.cpp" />
     <ClCompile Include="1966 프린터 큐.cpp" />
     <ClCompile Include="2156 포도주 시식.cpp" />
+    <ClCompile Include="2178 미로 탐색.cpp" />
     <ClCompile Include="25305 커트라인.cpp" />
     <ClCompile Include="2565 전깃줄.cpp" />
     <ClCompile Include="2606 바이러스.cpp" />
