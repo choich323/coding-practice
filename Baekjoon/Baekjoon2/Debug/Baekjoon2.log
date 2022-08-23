@@ -1,2 +1,6 @@
 ﻿  1697 숨바꼭질.cpp
+  9251 LCS.cpp
+E:\Programming_Practice\연습용\code_practice\coding-practice\Baekjoon\Baekjoon2\9251 LCS.cpp(11,20): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+E:\Programming_Practice\연습용\code_practice\coding-practice\Baekjoon\Baekjoon2\9251 LCS.cpp(12,21): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
   Baekjoon2.vcxproj -> E:\Programming_Practice\연습용\code_practice\coding-practice\Baekjoon\Debug\Baekjoon2.exe
