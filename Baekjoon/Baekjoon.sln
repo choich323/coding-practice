@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Baekjoon", "Baekjoon\Baekjo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Baekjoon2", "Baekjoon2\Baekjoon2.vcxproj", "{BE5FC433-6704-4EDA-8360-1507D5964439}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programmers", "..\Programmers\Programmers.vcxproj", "{1F569476-B337-4DF4-9C19-904D51F0DA6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -30,6 +32,14 @@ Global
 		{BE5FC433-6704-4EDA-8360-1507D5964439}.Release|x64.Build.0 = Release|x64
 		{BE5FC433-6704-4EDA-8360-1507D5964439}.Release|x86.ActiveCfg = Release|Win32
 		{BE5FC433-6704-4EDA-8360-1507D5964439}.Release|x86.Build.0 = Release|Win32
+		{1F569476-B337-4DF4-9C19-904D51F0DA6C}.Debug|x64.ActiveCfg = Debug|x64
+		{1F569476-B337-4DF4-9C19-904D51F0DA6C}.Debug|x64.Build.0 = Debug|x64
+		{1F569476-B337-4DF4-9C19-904D51F0DA6C}.Debug|x86.ActiveCfg = Debug|Win32
+		{1F569476-B337-4DF4-9C19-904D51F0DA6C}.Debug|x86.Build.0 = Debug|Win32
+		{1F569476-B337-4DF4-9C19-904D51F0DA6C}.Release|x64.ActiveCfg = Release|x64
+		{1F569476-B337-4DF4-9C19-904D51F0DA6C}.Release|x64.Build.0 = Release|x64
+		{1F569476-B337-4DF4-9C19-904D51F0DA6C}.Release|x86.ActiveCfg = Release|Win32
+		{1F569476-B337-4DF4-9C19-904D51F0DA6C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
