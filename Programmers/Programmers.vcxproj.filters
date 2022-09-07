@@ -24,5 +24,8 @@
     <ClCompile Include="같은 숫자는 싫어.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="로또의 최고 순위와 최저 순위.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
