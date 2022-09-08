@@ -27,5 +27,11 @@
     <ClCompile Include="로또의 최고 순위와 최저 순위.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="나머지가 1이 되는 수 찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="영어 끝말잇기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
