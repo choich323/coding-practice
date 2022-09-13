@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="같은 숫자는 싫어.cpp" />
+    <ClCompile Include="구명보트.cpp" />
     <ClCompile Include="나머지가 1이 되는 수 찾기.cpp" />
     <ClCompile Include="두 큐 합 같게 만들기.cpp" />
     <ClCompile Include="로또의 최고 순위와 최저 순위.cpp" />
