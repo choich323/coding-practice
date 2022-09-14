@@ -134,6 +134,7 @@
     <ClCompile Include="로또의 최고 순위와 최저 순위.cpp" />
     <ClCompile Include="성격 유형 검사하기.cpp" />
     <ClCompile Include="영어 끝말잇기.cpp" />
+    <ClCompile Include="짝지어 제거하기.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
