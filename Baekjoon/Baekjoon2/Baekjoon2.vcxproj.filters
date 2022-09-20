@@ -162,6 +162,9 @@
     <ClCompile Include="9251 LCS.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="7562 나이트의 이동.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="5430 AC.h">
