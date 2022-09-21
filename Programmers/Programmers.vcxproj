@@ -136,6 +136,7 @@
     <ClCompile Include="숫자 문자열과 영단어.cpp" />
     <ClCompile Include="영어 끝말잇기.cpp" />
     <ClCompile Include="짝지어 제거하기.cpp" />
+    <ClCompile Include="캐시.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
