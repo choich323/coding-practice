@@ -135,8 +135,11 @@
     <ClCompile Include="성격 유형 검사하기.cpp" />
     <ClCompile Include="숫자 문자열과 영단어.cpp" />
     <ClCompile Include="영어 끝말잇기.cpp" />
+    <ClCompile Include="완주하지 못한 선수.cpp" />
+    <ClCompile Include="전화번호 목록.cpp" />
     <ClCompile Include="짝지어 제거하기.cpp" />
     <ClCompile Include="캐시.cpp" />
+    <ClCompile Include="폰켓몬.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
