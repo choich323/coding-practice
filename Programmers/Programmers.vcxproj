@@ -140,6 +140,7 @@
     <ClCompile Include="위장.cpp" />
     <ClCompile Include="전화번호 목록.cpp" />
     <ClCompile Include="짝지어 제거하기.cpp" />
+    <ClCompile Include="체육복.cpp" />
     <ClCompile Include="캐시.cpp" />
     <ClCompile Include="타겟 넘버.cpp" />
     <ClCompile Include="폰켓몬.cpp" />
