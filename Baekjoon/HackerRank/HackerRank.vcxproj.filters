@@ -18,5 +18,11 @@
     <ClCompile Include="Queen%27s Attack II.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Append and Delete.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Save the Prisoner!.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
