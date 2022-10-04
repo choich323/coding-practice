@@ -134,6 +134,7 @@
     <ClCompile Include="네트워크.cpp" />
     <ClCompile Include="두 큐 합 같게 만들기.cpp" />
     <ClCompile Include="로또의 최고 순위와 최저 순위.cpp" />
+    <ClCompile Include="모의고사.cpp" />
     <ClCompile Include="성격 유형 검사하기.cpp" />
     <ClCompile Include="숫자 문자열과 영단어.cpp" />
     <ClCompile Include="영어 끝말잇기.cpp" />
