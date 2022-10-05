@@ -1,2 +1,9 @@
 ﻿  게임 맵 최단거리.cpp
-  Programmers.vcxproj -> E:\Programming_Practice\연습용\code_practice\coding-practice\Baekjoon\Debug\Programmers.exe
+  네트워크.cpp
+  모의고사.cpp
+  위장.cpp
+  체육복.cpp
+  타겟 넘버.cpp
+  코드를 생성하고 있습니다...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+E:\Programming_Practice\연습용\code_practice\coding-practice\Baekjoon\Debug\Programmers.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

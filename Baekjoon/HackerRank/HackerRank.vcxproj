@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Append and Delete.cpp" />
+    <ClCompile Include="Apple and Orange.cpp" />
+    <ClCompile Include="Grading Students.cpp" />
     <ClCompile Include="Queen%27s Attack II.cpp" />
     <ClCompile Include="Save the Prisoner!.cpp" />
   </ItemGroup>
