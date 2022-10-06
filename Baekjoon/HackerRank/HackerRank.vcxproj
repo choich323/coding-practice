@@ -129,9 +129,16 @@
   <ItemGroup>
     <ClCompile Include="Append and Delete.cpp" />
     <ClCompile Include="Apple and Orange.cpp" />
+    <ClCompile Include="Between Two Sets.cpp" />
+    <ClCompile Include="Breaking the Records.cpp" />
+    <ClCompile Include="Divisible Sum Pairs.cpp" />
     <ClCompile Include="Grading Students.cpp" />
+    <ClCompile Include="Migratory Birds.cpp" />
+    <ClCompile Include="Number Line Jumps.cpp" />
     <ClCompile Include="Queen%27s Attack II.cpp" />
     <ClCompile Include="Save the Prisoner!.cpp" />
+    <ClCompile Include="Subarray Division.cpp" />
+    <ClCompile Include="Super Reduced String.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
