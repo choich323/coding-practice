@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="[DP]정수 삼각형.cpp" />
     <ClCompile Include="가장 먼 노드.cpp" />
     <ClCompile Include="같은 숫자는 싫어.cpp" />
     <ClCompile Include="게임 맵 최단거리.cpp" />
