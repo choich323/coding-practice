@@ -28,7 +28,6 @@ int main() {
 
 		if(sum < n) { // 목표보다 적으면
 			max = mid - 1; // 최댓값 감소
-			answer = mid - 1; // 값 조정
 		}
 		else if(sum >= n) { // 목표와 같거나 많으면
 			start = mid + 1; // 시작지점 증가: 종료 조건을 위해 +1
