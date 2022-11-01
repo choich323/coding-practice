@@ -90,5 +90,11 @@
     <ClCompile Include="[String] 문자열 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="[Array] 최솟값 만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[String] 이진 변환 반복하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
