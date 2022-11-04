@@ -105,5 +105,14 @@
     <ClCompile Include="[Bruteforce] 다음 큰 숫자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="[Fullsearch] 카펫.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[Math] N개의 최소공배수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[Binary Search] 예상 대진표.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
