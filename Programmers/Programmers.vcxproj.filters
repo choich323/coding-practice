@@ -114,5 +114,11 @@
     <ClCompile Include="[Binary Search] 예상 대진표.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="[DP] 멀리 뛰기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[Sorting] H-Index.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
