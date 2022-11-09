@@ -134,10 +134,12 @@
     <ClCompile Include="[DP] 피보나치 수.cpp" />
     <ClCompile Include="[DP]정수 삼각형.cpp" />
     <ClCompile Include="[Fullsearch] 카펫.cpp" />
+    <ClCompile Include="[Implementation] 비밀지도.cpp" />
     <ClCompile Include="[Math] N개의 최소공배수.cpp" />
     <ClCompile Include="[Math] 숫자의 표현.cpp" />
     <ClCompile Include="[Math] 행렬의 곱셈.cpp" />
     <ClCompile Include="[Sorting] H-Index.cpp" />
+    <ClCompile Include="[Stack] 괄호 회전하기.cpp" />
     <ClCompile Include="[Stack] 올바른 괄호.cpp" />
     <ClCompile Include="[String] 문자열 만들기.cpp" />
     <ClCompile Include="[String] 이진 변환 반복하기.cpp" />
