@@ -136,12 +136,17 @@
     <ClCompile Include="[Fullsearch] 카펫.cpp" />
     <ClCompile Include="[Implementation] 비밀지도.cpp" />
     <ClCompile Include="[Math] N개의 최소공배수.cpp" />
+    <ClCompile Include="[Math] 소수 찾기.cpp" />
     <ClCompile Include="[Math] 숫자의 표현.cpp" />
+    <ClCompile Include="[Math] 하샤드 수.cpp" />
     <ClCompile Include="[Math] 행렬의 곱셈.cpp" />
     <ClCompile Include="[Sorting] H-Index.cpp" />
+    <ClCompile Include="[Sorting] 예산.cpp" />
     <ClCompile Include="[Stack] 괄호 회전하기.cpp" />
     <ClCompile Include="[Stack] 올바른 괄호.cpp" />
+    <ClCompile Include="[String] 문자열 내 마음대로 정렬하기.cpp" />
     <ClCompile Include="[String] 문자열 만들기.cpp" />
+    <ClCompile Include="[String] 시저 암호.cpp" />
     <ClCompile Include="[String] 이진 변환 반복하기.cpp" />
     <ClCompile Include="가장 먼 노드.cpp" />
     <ClCompile Include="같은 숫자는 싫어.cpp" />
